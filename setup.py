@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import setuptools
 setup(
     name='Vinted_api_scraper',  # Nouveau nom de votre projet
-    version='0.4.0',
+    version='0.5.0',
     author='Simon BEGUIN',
     author_email='simon.beguin7@gmail.com',
     description='Vinted API wrapper for python',
@@ -17,6 +17,7 @@ setup(
         "Operating System :: OS Independent",
         "Intended Audience :: Education",
     ],
-    packages=setuptools.find_packages(where="src"),
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
     python_requires=">=3.6"
     )
