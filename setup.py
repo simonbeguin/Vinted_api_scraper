@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pyVinteddd',  # Nouveau nom de votre projet
+    name='Vinted_api_scraper',  # Nouveau nom de votre projet
     version='0.2.0',
     packages=find_packages(),
     install_requires=[
